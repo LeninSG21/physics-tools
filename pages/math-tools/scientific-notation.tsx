@@ -1,0 +1,1 @@
+export const ScientificNotation = () => <div />;
