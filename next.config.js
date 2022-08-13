@@ -2,6 +2,16 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
 
-module.exports = nextConfig
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/math-tools/scientific-notation',
+        permanent: true,
+      },
+    ];
+  },
+};
+
+module.exports = nextConfig;
