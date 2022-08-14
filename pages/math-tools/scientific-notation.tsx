@@ -7,7 +7,7 @@ const ScientificNotation: NextPage = () => (
       <title>Scientific Notation - Physics Tools</title>
       <meta name="description" content="Play to learn scientific notation" />
     </Head>
-    <div>Scientific Notation</div>
+    <div className="color-primary">Scientific Notation</div>
   </>
 );
 

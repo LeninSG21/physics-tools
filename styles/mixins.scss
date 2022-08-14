@@ -1,0 +1,7 @@
+@mixin map-class($className, $property, $map) {
+  @each $name, $value in $map {
+    .#{$className}-#{$name} {
+      #{$property}: $value;
+    }
+  }
+}

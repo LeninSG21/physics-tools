@@ -1,0 +1,13 @@
+$colors: (
+  primaryLight: #2e74e5,
+  primary: #1649d8,
+  primaryDark: #2137db,
+  blue1: #2e70b1,
+  blue2: #20469d,
+  blue3: #233494,
+  blue4: #1f2c90,
+  purple1: #491083,
+);
+
+@include map-class('color', 'color', $colors);
+@include map-class('bg-color', 'background-color', $colors);
